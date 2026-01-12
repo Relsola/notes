@@ -24,4 +24,4 @@
 
 ## 链接
 
-- [**Talks that changed the way I think about programming** ](http://www.opowell.com/post/talks-that-changed-the-way-i-think-about-programming/)
+- [**Talks that changed the way I think about programming**](http://www.opowell.com/post/talks-that-changed-the-way-i-think-about-programming/)
