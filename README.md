@@ -25,3 +25,10 @@
 ## 链接
 
 - [**Talks that changed the way I think about programming**](http://www.opowell.com/post/talks-that-changed-the-way-i-think-about-programming/)
+
+
+## 其他
+
+- [**config 个人常用配置**](./src/config.md)
+
+- [**Relsola Posts**](./src/posts.md)
