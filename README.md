@@ -29,6 +29,4 @@
 
 ## 其他
 
-- [**config 个人常用配置**](./src/config.md)
-
 - [**Relsola Posts**](./src/posts.md)
