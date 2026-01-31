@@ -169,3 +169,6 @@ chsh -s /usr/bin/pwsh
 ```
 
 ## Arch 自定义
+
+
+## 安装 Ubuntu
