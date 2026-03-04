@@ -23,7 +23,7 @@
 `defvar` 定义变量
 
 
-```
+``` lisp
 (defun rc/require-theme (theme)
 	(let ((theme-package (->> theme
 														(symbol-name)
