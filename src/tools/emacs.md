@@ -48,7 +48,7 @@
 3. `-flip` `dash.el` 提供的高阶函数，作用是把一个二元/多元函数的参数顺序交换（“翻转参数”
 
 
-## Emacs 常用键位操作
+## 基础操作
 
 Emacs 键位表示 `C Ctrl` `M Alt` `S shift`
 
@@ -99,13 +99,29 @@ M-p 上一条历史命令
 M-n 下一条历史命令
 
 
-## Emacs 扩展...
+## 功能扩展
 
+### 终端操作
+
+
+| 命令      | 操作     | fun                          |
+| --------- | -------- | ---------------------------- |
+| `C-g`     | 取消操作 | `keyboard-quit`              |
+| `M-x`     | 输入命令 | `execute-extended-command`   |
+| `C-x C-c` | 退出程序 | `save-buffers-kill-terminal` |
+
+Emacs 下打开终端
+
+### 文本搜索
+
+### 文件管理
 1. vterm
 
 ## Emacs 功能操作
 
 Emacs 会自动识别 .git | Makefile | .project 为工作目录
+
+`project-dired`
 
 ### 操作宏
 
