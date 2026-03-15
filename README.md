@@ -30,6 +30,10 @@
 
 - [**Emacs**](./src/tools/emacs.md)
 
+## 数学
+
+- [**线性代数**](./src/math/linear-algebra.md)
+
 ## 其他
 
 - [**Relsola Posts**](./src/posts.md)
