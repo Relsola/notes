@@ -29,6 +29,8 @@
 ## 工具
 
 - [**Emacs**](./src/tools/emacs.md)
+  
+- [**VScode**](./src/tools/vscode.md)
 
 ## 数学
 
