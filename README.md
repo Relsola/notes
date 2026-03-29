@@ -29,6 +29,8 @@
 ## 工具
 
 - [**Emacs**](./src/tools/emacs.md)
+
+- [**Vim**](./src/tools/vim.md)
   
 - [**VScode**](./src/tools/vscode.md)
 
