@@ -10,8 +10,6 @@
 
 - [**游戏设计与开发**](./src/game_dev.md)
 
-- [**编译原理**](./src/compiler.md)
-
 - [**数学**](./src/math.md)
 
 - [**Linux**](./src/linux.md)
@@ -23,7 +21,6 @@
 ## 工具
 
 - [**Editor**](./src/tools/editor.md)
-
 
 ## 其他
 
