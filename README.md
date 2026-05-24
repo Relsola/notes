@@ -16,27 +16,14 @@
 
 - [**Linux**](./src/linux.md)
 
-## 项目
-
-- [**Handmade Hero**](https://guide.handmadehero.org/)
-
-- [**chibicc**](https://github.com/rui314/chibicc)
-
 ## 链接
 
 - [**Talks that changed the way I think about programming**](http://www.opowell.com/post/talks-that-changed-the-way-i-think-about-programming/)
 
 ## 工具
 
-- [**Emacs**](./src/tools/emacs.md)
+- [**Editor**](./src/tools/editor.md)
 
-- [**Vim**](./src/tools/vim.md)
-  
-- [**VScode**](./src/tools/vscode.md)
-
-## 数学
-
-- [**线性代数**](./src/math/linear-algebra.md)
 
 ## 其他
 
