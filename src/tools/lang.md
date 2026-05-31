@@ -29,3 +29,7 @@ typedef enum { Red, Green, Blue } Color;
 ```cpp
 enum struct Color : unsigned int { Red, Green, Blue };
 ```
+
+## Lisp
+
+lisp 我只接触 elisp 用于自定义 emacs
