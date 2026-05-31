@@ -20,7 +20,7 @@
 
 ## 工具
 
-- [**Editor**](./src/tools/editor.md)
+- [**Vim**](./src/tools/vim.md)
 
 ## 其他
 
