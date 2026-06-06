@@ -8,4 +8,6 @@
 
 ## 快速导航
 
+- [**Emacs**](./src/tools/emacs.md)
+  
 - [**Vim**](./src/tools/vim.md)
