@@ -56,7 +56,7 @@ Emacs 键位表示 `C Ctrl` `M Alt` `S shift`
 
 `C-x C-s` 表示先同时按下 `Ctrl` 和 `x` 再同时按下 `Ctrl` 和 `s`
 
-| 快捷键    | 操作                             | fun                              |
+| 快捷键    | 操作                             | 命令                             |
 | --------- | -------------------------------- | -------------------------------- |
 | `C-g`     | 取消操作                         | `keyboard-quit`                  |
 | `M-x`     | 输入命令                         | `execute-extended-command`       |
@@ -65,6 +65,9 @@ Emacs 键位表示 `C Ctrl` `M Alt` `S shift`
 | `C-x C-0` | 重置字号                         | `text-scale-adjust`              |
 | `C-x C-c` | 退出程序                         | `save-buffers-kill-terminal`     |
 | `C-h C-h` | 打开帮助窗口                     |                                  |
+| `C-h w`   | 查询命令绑定的按键               | `where-is`                       |
+| `C-h k`   | 查询快捷键绑定的命令             | `describe-key`                   |
+| `C-h b`   | 查询当前模式下的所有快捷键       | `describe-bindings`              |
 | `C-h c`   | 简要描述快捷键功能               | `describe-key-briefly`           |
 | `C-h f`   | 描述函数功能                     | `describe-function`              |
 | `C-h v`   | 描述变量                         | `describe-variable`              |
@@ -78,6 +81,7 @@ Emacs 键位表示 `C Ctrl` `M Alt` `S shift`
 | `M-w`     | 复制选区                         |                                  |
 | `C-y`     | 粘贴                             | `yank`                           |
 | `C-/`     | 撤销                             | `undo`                           |
+| `C-q`     | 引用插入                         | `quoted-insert`                  |
 | ---       | ---                              | ---                              |
 | `C-x o`   | 切换窗口                         |                                  |
 | `C-x 0`   | 关闭当前窗口                     |                                  |
@@ -107,12 +111,23 @@ Emacs 键位表示 `C Ctrl` `M Alt` `S shift`
 `eval-buffer`
 
 
+## use-package 插件设置
+
+修改后让配置生效
+
+1. 重启 Emacs
+2. 使用 `M-x load-file` 读取配置文件
+3. 选中更改配置部分的代码 `M-x eval-region` 执行
+
 ## 常用命令
 
-| 命令                | 操作                |
-| ------------------- | ------------------- |
-| `M-x revert-buffer` | 手动刷新当前 buffer |
-| `M-x text-mode`     | 切换模式            |
+| 快捷键      | 操作                     | 命令                            |
+| ----------- | ------------------------ | ------------------------------- |
+|             | 手动刷新当前 buffer      | ` revert-buffer`                |
+|             | 切换模式                 | `text-mode`                     |
+|             | 展示所有绑定的命令的详情 | `describe-personal-keybindings` |
+| ---         | ---                      | ---                             |
+| `C-x RET f` | 修改编码类型             | `set-buffer-file-coding-system` |
 
 ## 自定义
 
